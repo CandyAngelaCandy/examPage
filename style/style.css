@@ -1,0 +1,117 @@
+/*清除元素的默认样式*/
+body, ul, li, h1, h2, h3, h4, h5, h6, p, form, dl, dt, dd,input {
+  margin: 0px;
+  padding: 0px;
+}
+ul {
+  list-style: none;
+}
+img {
+  border-style: none;
+}
+
+.test{
+  width: 60%;
+  border:2px solid red;
+  padding:5px 30px;
+  box-sizing:border-box;
+  margin:auto;
+}
+
+.indInfo,.form,section{
+  border:1px solid rgba(0,0,0,0.3);
+  border-radius:5px;
+  margin-bottom:10px;
+}
+.indInfo,.form{
+  padding:10px 5px;
+  display:flex;
+}
+.indInfo .item,.form .item{
+  flex:1;
+}
+section .titleType{
+  padding:10px 8px ;
+  display:block;
+  background-color: rgba(0,0,0,0.1);
+}
+input[type="text"]{
+  border:1px solid rgba(0,0,0,0.3);
+  border-radius:2px;
+  height: 25px;
+}
+.title{
+  text-align: center;
+  margin:10px auto;
+}
+.titleDes{
+  display: block;
+}
+li,.titleDes{
+  margin-bottom:10px;
+}
+.true {
+  margin-right: 20px;
+  display: inline-block;
+  width: 8px;
+  height:4px;
+  background: green;
+  line-height: 0;
+  font-size:0;
+  vertical-align: middle;
+  transform: rotate(45deg);
+}
+.true:after{
+  content:'/';
+  display:block;
+  width: 18px;
+  height:4px;
+  background: green;
+  transform: rotate(-90deg) translateY(-50%) translateX(50%);
+}
+.false{
+  display: inline-block;
+  width: 18px;
+  height:4px;
+  background: red;
+  line-height: 0;
+  font-size:0;
+  vertical-align: middle;
+  transform: rotate(45deg);
+}
+.false:after{
+  left:10px;
+  content:'/';
+  display:block;
+  width: 18px;
+  height:4px;
+  background: red;
+  transform: rotate(-90deg);
+}
+.shortAnsContent{
+  margin-bottom: 10px;
+}
+.submitBtn{
+  width: 72px;
+  height: 30px;
+  border: 1px solid lightblue;
+  border-radius: 3px;
+  margin: 5px auto;
+  display: block;
+  background-color: #4682B4;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+}
+input[name*="tOrF"]{
+  display: inline-block;
+  vertical-align:middle;
+  margin-right:5px;
+}
+.fullTextZone{
+  width: 90%;
+  height: 200px;
+}
+input[name*="cQ"],input[type="checkbox"]{
+  margin-right:5px;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>统一建模语言理论测试</title>
+    <link rel="stylesheet" href="style/style.css">
+  <!--针对IE9的多列均匀布局-->
+
+  <!--[if IE 9]>
+  <style>
+    .indInfo div,.form .item{
+      display: inline-block;
+      width:33%;
+    }
+  </style>
+  <![endif]-->
+
+</head>
+<body>
+  <div class="test">
+    <div class="wrap">
+        <h2 class="title">统一建模语言理论测试</h2>
+        <div class="indInfo">
+          <div class="item">考试科目：统一建模语言</div>
+          <div class="item">时间：100分钟</div>
+          <div class="item">得分：</div>
+        </div>
+        <form class="form">
+          <div class="item">
+            <label for="class">班级(必填)：</label>
+            <input type="text" name="class"/>
+          </div>
+          <div class="item">
+            <label for="sno">学号(必填)：</label>
+            <input type="text" name="sno" />
+          </div>
+          <div class="item">
+            <label for="name">姓名(必填)：</label>
+            <input type="text" name="name" />
+          </div>
+        </form>
+        <section class="fill-ins">
+          <b class="titleType">一、填空题(每空5分，共20分)</b>
+          <ol>
+            <li>
+              <span>UML的中文全称是：</span></br>
+              <input type="text" name="name" />
+            </li>
+            <li>
+              <span>对象最突出的特征是：</span></br>
+              <input type="text" name="name" />
+              <input type="text" name="name" />
+              <input type="text" name="name" />
+            </li>
+          </ol>
+        </section>
+        <section class="choiceQues">
+          <b class="titleType">二、选择题(每题10分，共20分)</b>
+          <ol>
+            <li>
+              <div class="titleDes">UML与软件工程的关系是：</div>
+              <input type="radio" name="cQ1">(A)UML就是软件工程</br>
+              <input type="radio" name="cQ1">(B)UML参与软件工程中软件开发过程的几个阶段</br>
+              <input type="radio" name="cQ1">(C)UML与软件工程无关</br>
+              <input type="radio" name="cQ1">(D)UML是软件工程的一部分
+              </ul>
+            </li>
+            <li>
+              <div class="titleDes">Java语言支持：</div>
+              <input type="radio" name="cQ2">(A)单继承</br>
+              <input type="radio" name="cQ2">(B)多继承</br>
+              <input type="radio" name="cQ2">(C)单继承和多继承都支持</br>
+              <input type="radio" name="cQ2">(D)单继承和多继承都不支持</br>
+              </ul>
+            </li>
+          </ol>
+        </section>
+        <section class="multiChoiceQues">
+          <b class="titleType">三、多项选择题(每题10分，共20分)</b>
+          <ol>
+            <li>
+              <div class="titleDes">用例的粒度分为以下哪三种：</div>
+              <input type="checkbox">(A)概述级</br>
+              <input type="checkbox">(B)需求级</br>
+              <input type="checkbox">(C)用户目标级</br>
+              <input type="checkbox">(D)子功能级
+            </li>
+            <li>
+              <div class="titleDes">类图由以下哪三部分组成：</div>
+              <input type="checkbox">(A)名称(Name)</br>
+              <input type="checkbox">(B)属性(Attribute)</br>
+              <input type="checkbox">(C)操作(Operation)</br>
+              <input type="checkbox">(D)方法(Function)</br>
+              </ul>
+            </li>
+          </ol>
+        </section>
+        <section class="tOrF">
+          <b class="titleType">四、判断题(每题10分，共20分)</b>
+          <ol>
+            <li>
+              用例图只是用于和客户交流和沟通的，用于确定需求。
+              <input type="radio" name="tOrF1"><span class="true"></span>
+              <input type="radio" name="tOrF1"><span class="false"></span>
+            </li>
+            <li>
+              在状态图中，终止状态在一个状态图中允许有任意多个。
+              <input type="radio" name="tOrF2"><span class="true"></span>
+              <input type="radio" name="tOrF2"><span class="false"></span>
+            </li>
+          </ol>
+        </section>
+        <section class="shortAns">
+          <b class="titleType">五、简题(每题20分，共20分)</b>
+          <ol>
+            <li>
+              <div class="shortAnsContent">简述什么是模型以及模型的表现形式？</div>
+               <textarea class="fullTextZone">
+
+               </textarea>
+            </li>
+          </ol>
+        </section>
+        <input type="submit" value="计算分数" class="submitBtn">
+    </div>
+  </div>
+</body>
+</html>
